@@ -1,7 +1,7 @@
 
 # Mathematics and Nature
 
-
+![Example Image](Lotus_Plot.jpeg)
 
 ## Overview
 
