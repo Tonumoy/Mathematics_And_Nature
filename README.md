@@ -1,7 +1,8 @@
 
 # Mathematics and Nature
 
-![Example Image](Lotus_Plot.jpeg)
+![Example Image](Lotus_Plot.jpeg) ![Example Image](https://github.com/Tonumoy/Mathematics_And_Nature/blob/main/Butterfly_Equations.jpeg)
+
 
 ## Overview
 
