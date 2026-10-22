@@ -1,0 +1,5 @@
+# Rendered media is published on YouTube; keep the repo light
+*.mp4
+*.wav
+*.mov
+assets/*.png
