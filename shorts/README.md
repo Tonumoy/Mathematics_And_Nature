@@ -4,6 +4,7 @@ Source code for the daily Shorts on [Coded Cosmos (@cosmoscoded)](https://www.yo
 
 | Date | Short | Domain | Watch |
 |---|---|---|---|
+| 2026-10-23 | [Poets found this before Fibonacci](2026-10-23_pingala_rhythm/) | Math · Sanskrit poetry | [YouTube](https://youtube.com/shorts/6nqwPUfpbro) |
 | 2026-10-22 | [This circle is a sound](2026-10-22_lissajous_harmony/) | Math · music | [YouTube](https://youtube.com/shorts/Agl-joxK8Cw) |
 
 ## Conventions
