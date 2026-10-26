@@ -1,6 +1,6 @@
 # Which ball wins? (the brachistochrone and the tautochrone)
 
-Watch: youtube.com/shorts/CY2Tu5Jc8YA · 42 s · 1080×1920 · 30 fps · series: Weird Physics
+Watch: youtube.com/shorts/XaMS58chgec · 42 s · 1080×1920 · 30 fps · series: Weird Physics
 
 ![preview](assets/preview_frames.jpg)
 
