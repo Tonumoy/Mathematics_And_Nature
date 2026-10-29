@@ -74,8 +74,12 @@ GENRES = {
                        prog=[[0, 7, 16]],
                        drums=None, bass=None, pad=None, lead="glass", reverb=0.3, lowpass=None,
                        desc="no beat wall: crisp glass pings, soft sub, every event its own tiny sound"),
+    "funk":        dict(bpm=130, swing=0.0, mode="minor", scale=[0, 2, 3, 5, 7, 8, 10],
+                       prog=[[0, 3, 7], [8, 12, 15], [5, 8, 12], [7, 10, 14]],          # i VI iv v
+                       drums="tamborzao", bass="808", pad=None, lead="glass", reverb=0.15, lowpass=None,
+                       desc="Brazilian funk: tamborzao kick/tom 16th pattern, clap 2/4, 808 slides, FM vowel-chop stabs, glass lead"),
 }
-TRENDY = ["phonk", "funk", "hardtechno", "hyperpop", "asmr"]   # phonk/funk/hyperpop: add presets before first use
+TRENDY = ["phonk", "funk", "hardtechno", "hyperpop", "asmr"]   # phonk/hyperpop: add presets before first use (funk added 29 Oct)
 ROTATION_GAP = 3          # a genre can't repeat within the last 3 Shorts
 TARGET_PEAK = 0.5
 
@@ -470,6 +474,24 @@ class Song:
                 if e > 0.8:
                     for s16 in (0.25, 0.75):
                         self.put(buf, (b + s16) * self.beat_s, Hc, 0.05, -0.3)
+            elif kind == "tamborzao":                         # 16-step funk carioca-style groove (our own pattern)
+                if not hasattr(self, "_tk"):
+                    self._tk = np.tanh(2.0 * kick(rng, 1.2, 0.16))
+                    n = int(0.18 * SR); tt = np.arange(n) / SR
+                    self._tom = np.sin(2 * np.pi * np.cumsum(170 + 90 * np.exp(-tt / 0.02)) / SR) * np.exp(-tt / 0.07)
+                    self._clap = sum(np.roll(snare(rng, 1100, 1.4, 0.2), int(k * 0.009 * SR)) for k in range(3)) / 2
+                step = (b % 4) * 4
+                for s16 in range(4):
+                    st16 = step + s16
+                    t16 = (b + s16 / 4) * self.beat_s
+                    if st16 in (0, 3, 6, 10, 12):
+                        self.put(buf, t16, self._tk, 0.46)
+                    if st16 in (2, 7, 11, 14) and e > 0.6:
+                        self.put(buf, t16, self._tom, 0.20, 0.25)
+                    if st16 in (4, 12) and e > 0.6:
+                        self.put(buf, t16, self._clap, 0.20, -0.1)
+                    if s16 % 2 == 1:
+                        self.put(buf, t16, Hc, 0.06 * e, 0.35)
             elif kind == "tabla":
                 for s in (0, 0.5):
                     bol = teentaal[(2 * b + int(2 * s)) % 16]
@@ -484,7 +506,7 @@ class Song:
                 continue
             if kind == "hit":
                 f = hz(self.scale_note(ev.get("idx", 0), 3))
-                self.put(buf, t, inst(g["lead"], f, 1.8, 0.30 * ev.get("vel", 1.0), rng), 1.0, ev.get("pan", 0.15))
+                self.put(buf, t, inst(ev.get("inst", g["lead"]), f, ev.get("dur", 1.8), 0.30 * ev.get("vel", 1.0), rng), 1.0, ev.get("pan", 0.15))
             elif kind in ("big", "chord"):
                 ch = self.chord_at(b)
                 lead = g["lead"]
