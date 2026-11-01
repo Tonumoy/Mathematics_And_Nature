@@ -4,10 +4,17 @@ Source code for the daily Shorts on [Coded Cosmos (@cosmoscoded)](https://www.yo
 
 | Date | Short | Domain | Watch |
 |---|---|---|---|
+| 2026-11-01 | [3 stars. Who gets kicked out?](2026-11-01_three_body/) | Gravity · chaos · 3-body solver | [YouTube](https://youtube.com/shorts/Kq_MgFi6x4A) |
 | 2026-10-31 | [1 electron at a time... so why stripes?](2026-10-31_double_slit/) | Quantum physics · Schrödinger sim | [YouTube](https://youtube.com/shorts/dlPTLv6AAKo) |
+| 2026-10-29 | [Where do 5,000 balls land?](2026-10-29_galton_board/) | Probability · Galton board | [YouTube](https://youtube.com/shorts/cV6TXWA8X2A) |
+| 2026-10-28 | [They're not random](2026-10-28_pendulum_wave/) | Physics · pendulum wave | [YouTube](https://youtube.com/shorts/BOoeT-XL4J4) |
+| 2026-10-27 | [POV: you're a raindrop](2026-10-27_monsoon_raindrop/) | Physics · terminal velocity | [YouTube](https://youtube.com/shorts/8GsYusG_L-k) |
+| 2026-10-26 | [Which ball wins?](2026-10-26_cycloid_race/) | Physics · brachistochrone | [YouTube](https://youtube.com/shorts/XaMS58chgec) |
 | 2026-10-25 | [Count the petals](2026-10-25_chakra_mandala/) | Sanskrit text · geometry | [YouTube](https://youtube.com/shorts/PtxJZ1z9p-8) |
 | 2026-10-23 | [Poets found this before Fibonacci](2026-10-23_pingala_rhythm/) | Math · Sanskrit poetry | [YouTube](https://youtube.com/shorts/6nqwPUfpbro) |
 | 2026-10-22 | [This circle is a sound](2026-10-22_lissajous_harmony/) | Math · music | [YouTube](https://youtube.com/shorts/Agl-joxK8Cw) |
+
+`_music/` holds the shared music engines (`music_cinematic.py`: dark cinematic score built from the sim's events).
 
 ## Conventions
 
