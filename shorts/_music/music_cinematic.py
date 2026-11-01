@@ -131,7 +131,7 @@ def compose(events, beats, bpm, sections, out_path):
     nd = 0
     for (t, us, new) in events:
         b = t/bt
-        single_ok = b < S['A_END'] + 0.2
+        single_ok = b < S['A_END'] + 0.2 or S.get('BELL_ALL', False)
         if not single_ok and S['D0'] <= b < S['D_END'] and nd < 5 and new <= 1:
             single_ok = True; nd += 1
         if new <= 3 and single_ok:
