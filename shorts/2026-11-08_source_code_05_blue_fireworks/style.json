@@ -1,0 +1,1 @@
+{"style": {"root": 42, "mode": "phrygian", "prog": "i-III-VII-iv", "pad": "analog", "pulse": "clock", "lead": "horn", "perc": "sparse", "texture": "shimmer", "bars_per_chord": 2, "theme": [2, 2, 4, 6, 1]}, "bpm": 88, "S": {"A_END": 18, "DROP": 44, "D0": 56, "D_END": 66, "SHUT0": 64, "SHUT1": 65, "SPOT0": 66, "OPEN1": 67, "FADE0": 72, "SCAN_T": 12.899999999999999}}

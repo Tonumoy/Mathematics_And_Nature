@@ -1,0 +1,1 @@
+{"style": {"root": 36, "mode": "harmonic", "prog": "i-VI-i-iv", "pad": "organ", "pulse": "arp16", "lead": "piano", "perc": "sparse", "texture": "sub_pulse", "bars_per_chord": 2, "theme": [0, 5, 2, 4, 6]}, "bpm": 84, "S": {"A_END": 20, "DROP": 34, "D0": 47, "D_END": 50, "SHUT0": 47, "SHUT1": 47, "SPOT0": 45, "OPEN1": 50, "FADE0": 68, "SCAN_T": 14.7}}
