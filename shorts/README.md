@@ -4,6 +4,7 @@ Source code for the daily Shorts on [Coded Cosmos (@cosmoscoded)](https://www.yo
 
 | Date | Short | Domain | Watch |
 |---|---|---|---|
+| 2026-11-14 | [How did your fridge punch a hole in the sky?](2026-11-14_fix_chain_01_fridge_ozone/) | FIX CHAIN #1 · chemistry · ozone · refrigeration | [YouTube](https://youtube.com/shorts/UP-CaTbEycQ) |
 | 2026-11-01 | [3 stars. Who gets kicked out?](2026-11-01_three_body/) | Gravity · chaos · 3-body solver | [YouTube](https://youtube.com/shorts/Kq_MgFi6x4A) |
 | 2026-10-31 | [1 electron at a time... so why stripes?](2026-10-31_double_slit/) | Quantum physics · Schrödinger sim | [YouTube](https://youtube.com/shorts/dlPTLv6AAKo) |
 | 2026-10-29 | [Where do 5,000 balls land?](2026-10-29_galton_board/) | Probability · Galton board | [YouTube](https://youtube.com/shorts/cV6TXWA8X2A) |

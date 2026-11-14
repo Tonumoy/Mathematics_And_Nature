@@ -1,0 +1,11 @@
+# Facts used on screen (checked 14 Nov 2026)
+- Some bacteria double ~every 20 min in ideal conditions (E. coli textbook value); cold slows growth.
+- 1920s fridges used ammonia, sulfur dioxide, methyl chloride: toxic; leaks killed people (Chicago 1929 deaths; families kept fridges in yards). Sources: EBSCO Research Starter; Cincinnati Magazine; History.com.
+- 1928 Thomas Midgley (GM/Frigidaire) made Freon (CFC-12). 1930 ACS meeting: inhaled it, blew out a candle. Sources: Invention & Technology 2010; History.com.
+- CFCs reach stratosphere in years; UV frees Cl; 1 Cl atom can destroy >100,000 O3. Source: US EPA ozone science pages.
+- Ozone hole: Farman, Gardiner, Shanklin, Nature 315:207 (May 1985); ~1/3 of spring ozone lost over Antarctica (Solomon, Nature 2019).
+- Montreal Protocol 1987; universal ratification, 198 parties. Source: UNEP Ozone Secretariat.
+- HFC-134a GWP100 = 1,430; CFC-12 = 10,900. Source: UNEP OzonAction Kigali fact sheet; EPA domestic refrigeration fact sheet.
+- Kigali Amendment Oct 2016 (HFC phase-down ~85%). Source: UNEP OzonAction.
+- R-600a isobutane GWP 3, ODP 0. Source: EPA domestic refrigeration fact sheet. India: R600a primarily used in domestic refrigeration; >50% global domestic market (CSE India).
+- Antarctic ozone back to 1980 values ~2066 (WMO/UNEP 2022 assessment).
