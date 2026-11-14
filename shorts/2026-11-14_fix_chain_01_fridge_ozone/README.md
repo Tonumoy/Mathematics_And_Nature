@@ -10,6 +10,7 @@ rot → cold → ice melts → compressor fridge → toxic gas (NH₃, SO₂) �
 - `timeline.py` — voice lines → scene windows (measured from `vo/Lxx.mp3`).
 - `render.py` — renders each scene to its own mp4 with 2 workers, then concat.
 - `mix.py` — score from `_music/score_engine.py` + ElevenLabs narration, ducked; loudness normalised to −14 LUFS afterwards.
+- `thumb.py` — the cover, built from the same Earth, trail and fridge render as the video.
 - `FACTS.md`, `SEO.md` — sources, title, description, tags.
 
 Run: `python check6.py 0.5 10 17 25 40 70` (frame check) · `python render.py` · `python mix.py` (needs `vo/`, `fonts/Poppins-ExtraBold.ttf`, `fonts/Poppins-SemiBold.ttf`, `pip install global-land-mask`).
