@@ -4,6 +4,7 @@ Source code for the daily Shorts on [Coded Cosmos (@cosmoscoded)](https://www.yo
 
 | Date | Short | Domain | Watch |
 |---|---|---|---|
+| 2026-11-18 | [Did AI Solve Navier-Stokes? The $1M Swirl in Your Chai](2026-11-18_source_code_13_navier_stokes/) | SOURCE CODE #13 · fluids · Navier-Stokes solver · 3D ray-traced cup | YouTube (goes live 18 Nov 2026) |
 | 2026-11-14 | [How did your fridge punch a hole in the sky?](2026-11-14_fix_chain_01_fridge_ozone/) | FIX CHAIN #1 · chemistry · ozone · refrigeration | [YouTube](https://youtube.com/shorts/UP-CaTbEycQ) |
 | 2026-11-01 | [3 stars. Who gets kicked out?](2026-11-01_three_body/) | Gravity · chaos · 3-body solver | [YouTube](https://youtube.com/shorts/Kq_MgFi6x4A) |
 | 2026-10-31 | [1 electron at a time... so why stripes?](2026-10-31_double_slit/) | Quantum physics · Schrödinger sim | [YouTube](https://youtube.com/shorts/dlPTLv6AAKo) |
