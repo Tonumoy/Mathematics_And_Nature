@@ -4,7 +4,7 @@ Source code for the daily Shorts on [Coded Cosmos (@cosmoscoded)](https://www.yo
 
 | Date | Short | Domain | Watch |
 |---|---|---|---|
-| 2026-11-23 | [Riemann Hypothesis Solved? Watch the Primes Appear](2026-11-23_source_code_15_riemann/) | SOURCE CODE #15 · number theory · ζ zeros → prime staircase (explicit formula) · Lean proof news | YouTube / Instagram links added after posting |
+| 2026-11-23 | [Riemann Hypothesis Solved? Watch the Primes Appear](2026-11-23_source_code_15_riemann/) | SOURCE CODE #15 · number theory · ζ zeros → prime staircase (explicit formula) · Lean proof news | [YouTube](https://youtube.com/shorts/1DgpWspFbWE) · [Instagram](https://www.instagram.com/reel/DgFl1ToTzhz/) |
 | 2026-11-22 | [How OpenAI's AI Agents Escaped & Hacked Hugging Face](2026-11-22_source_code_14_agents_escape/) | SOURCE CODE #14 · AI safety · sandbox escape · bandit toy model | [YouTube](https://youtube.com/shorts/u43AfO4n3vM) · [Instagram](https://www.instagram.com/reel/DgDVsKmz7Gb/) |
 | 2026-11-18 | [Did AI Solve Navier-Stokes? The $1M Swirl in Your Chai](2026-11-18_source_code_13_navier_stokes/) | SOURCE CODE #13 · fluids · Navier-Stokes solver · 3D ray-traced cup | [YouTube](https://youtube.com/shorts/Q7qayNcuVcE) |
 | 2026-11-17 | [Can sound lift water?](2026-11-17_acoustic_levitation/) | Physics · acoustic levitation | [YouTube](https://youtube.com/shorts/lLe02uVdBHA) |
