@@ -1,0 +1,10 @@
+L01 Every time you open your bank app, two secret numbers guard your money.
+L02 Two thousand years ago, Caesar hid his messages by shifting every letter three steps. A became D.
+L03 Easy to crack. Some letters show up far more than others. Count them, and the secret falls out.
+L04 So people switched to long secret keys. New problem: how do you send the key without a thief grabbing it?
+L05 In 1977, three scientists found the answer: a padlock anyone can snap shut, but only you can open.
+L06 The trick? Multiplying two big prime numbers is easy. Going backwards is brutally hard.
+L07 Today's lock number is six hundred seventeen digits long. Nobody has ever cracked one.
+L08 But in 2025, a Google researcher estimated a big enough quantum computer could crack it in under a week. That machine doesn't exist. Yet.
+L09 So in 2024, the US approved new locks, built on a puzzle where even quantum computers have no known shortcut.
+L10 Every fix created a new problem. Will your bank change its locks in time?
